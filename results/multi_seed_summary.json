@@ -1,0 +1,70 @@
+{
+  "seeds": [
+    42,
+    137,
+    2024
+  ],
+  "conventional": {
+    "mean": 90.03,
+    "std": 0.13,
+    "per_seed": [
+      90.19,
+      90.03,
+      89.87
+    ]
+  },
+  "phase_aware": {
+    "mean": 90.31,
+    "std": 0.31,
+    "per_seed": [
+      90.58,
+      90.46,
+      89.88
+    ]
+  },
+  "delta": {
+    "mean": 0.28,
+    "median": 0.39,
+    "std": 0.19,
+    "per_seed": [
+      0.39,
+      0.43,
+      0.01
+    ],
+    "positive_count": 3,
+    "total_seeds": 3,
+    "all_positive": true
+  },
+  "per_seed_results": [
+    {
+      "seed": 42,
+      "conventional_best": 90.19,
+      "phase_aware_best": 90.58,
+      "delta": 0.39,
+      "transitions": [
+        "Epoch 2: S0_EXPLORE -> S1_BOUNDARY (dL=-0.3301)",
+        "Epoch 29: S1_BOUNDARY -> S2_AXIS_LOCK (dL=-0.0031)"
+      ]
+    },
+    {
+      "seed": 137,
+      "conventional_best": 90.03,
+      "phase_aware_best": 90.46,
+      "delta": 0.43,
+      "transitions": [
+        "Epoch 2: S0_EXPLORE -> S1_BOUNDARY (dL=-0.3435)",
+        "Epoch 28: S1_BOUNDARY -> S2_AXIS_LOCK (dL=-0.0045)"
+      ]
+    },
+    {
+      "seed": 2024,
+      "conventional_best": 89.87,
+      "phase_aware_best": 89.88,
+      "delta": 0.01,
+      "transitions": [
+        "Epoch 2: S0_EXPLORE -> S1_BOUNDARY (dL=-0.3261)",
+        "Epoch 29: S1_BOUNDARY -> S2_AXIS_LOCK (dL=-0.0029)"
+      ]
+    }
+  ]
+}
